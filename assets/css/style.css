@@ -1,0 +1,436 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+a{
+    cursor: pointer;
+}
+
+.heyU {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.row {
+    height: 100%
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+
+}
+
+li {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #39b9ef !important;
+    text-decoration: underline;
+}
+
+.nav-item {
+    text-decoration: none !important;
+}
+
+.nav-item:hover {
+    text-decoration: underline !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+
+}
+
+i {
+    color: white;
+}
+
+.mainSection {
+    color: white;
+    width: 100%;
+    height: 980px;
+    position: relative;
+    
+}
+
+.container {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+
+
+.btn-primary {
+    margin-top: 80px !important;
+    color: white !important;
+    width: 200px;
+    height: 55px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+
+.bgsection {
+
+  width: 100%;
+    height: 980px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(to bottom , #d90646 , #eb3f2d);
+    -webkit-clip-path: polygon( 100% 0, 100% 75%, 0 90%, 0 0%);
+    clip-path: polygon(100% 0, 100% 75%, 0 90%, 0 0%);
+    
+}
+
+
+h1{
+    color: white;
+    font-size: 72px;
+}
+
+.mainSection span{
+    color: white;
+}
+
+.navbar.scrollcolor{
+    background-color: rgba(0, 0, 0,0.4) !important;
+}
+
+
+.Section{
+    padding-bottom: 150px;
+      border: 1px solid #e0e0e0;
+}
+
+.section3{
+    min-height: 825px;
+    width: 100%;
+    padding-top: 95px;
+  
+}
+
+.rawheight{
+    height: 100%;
+}
+.speech-bubble {
+	
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    height: auto;
+    max-height: 210px;
+    padding: 10px;
+    position: relative;
+    transition-duration: 0.4s;
+    
+}
+.speech-bubble p{
+    color: #808080;
+    font-style: italic;
+    height: auto;
+    max-height: 150px;
+    overflow: hidden;
+    padding: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+.descspan{
+    color: red;
+    padding-left: 30px;
+}
+/*.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 20%;
+	width: 0;
+	height: 0;
+	border: 9px solid transparent;
+	border-top-color: #e0e0e0;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -4.5px;
+	margin-bottom: -9px;
+    color: #ffffff;
+    background-color: white;
+}*/
+
+.desc{
+    margin-top: 20px;
+}
+ .triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 8px solid #e0e0e0;
+     position: absolute;
+     bottom: 0;
+	left: 20px;
+	width: 0;
+	height: 0;
+    margin-bottom: -9px;
+    }
+  
+.secondnotch{
+    border-top: 8px solid white;
+    margin-bottom: -8px;
+}
+
+.imgdiv{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.desctxt{
+    
+    margin-left: 20px; 
+}
+
+
+.one:hover .speech-bubble{
+        margin-top: -20px;
+    transition-duration: 0.4s;
+    -webkit-box-shadow: 0px 10px 60px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 60px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 60px -8px rgba(0,0,0,0.75);
+    
+
+}
+
+.one:hover .desc{
+    margin-top: 40px;
+   transition-duration: 0.4s;
+}
+
+.section3 h2{
+    margin-bottom: 130px;
+}
+
+.section4{
+    
+    height: 520px;
+    width: 100%;
+    
+    
+}
+
+.section4 .container{
+    width: 80%;
+    height: 100%;
+}
+
+.redSection{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom , #d90646 , #eb3f2d);
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+.section4 .redSection i{
+    font-size: 48px;
+}
+
+.direction{
+    direction: rtl;
+}
+
+
+.media-body h5{
+    color: white !important;
+    font-size: 24px;
+}
+
+.media-body p{
+    
+    color: white !important;
+    font-size: 16px;
+    color: #ed9aa5 !important;
+}
+
+.iphonecenter{
+
+    margin-top: -90px;
+    margin-bottom: -90px;
+   
+    
+}
+
+.cleardivvv{
+    height: 900px;
+    width: 100%;
+    
+}
+
+
+
+.section5{
+    height: 475px;
+    width: 100%;
+    
+}
+
+
+.section5 h2{
+    margin-top: 100px;
+}
+
+.section5 p{
+    color: #bfbfbf;
+    font-size: 18px;
+    width: 100%;
+    overflow: hidden;
+    
+    
+}
+
+
+.emailbtn{
+    position: relative;
+    width: 100%
+}
+
+
+.emailinput{
+    height: 50px;
+    border: 1px solid;
+    width: 570px;
+    outline-color: dimgrey;
+    padding-left: 1px;
+    
+    border-radius: 50px;
+}
+
+.emailsubmit{
+    position: absolute;
+    height: 50px !important;
+    top:0;
+    right:19.5%;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    background: linear-gradient(to bottom , #d90646 , #eb3f2d);
+    color: white;
+}
+
+
+.section6{
+    
+    height: 700px;
+    width: 100%;
+    border-top: 1px solid #e0e0e0 ;
+    border-bottom: 1px solid #e0e0e0 ;
+    padding-top: 100px;
+}
+
+.section6 h2{
+    font-size: 60px;
+}
+
+
+
+
+.section6 p{
+    font-size:18px;
+    color: #bfbfbf;
+}
+
+
+.footer{
+    
+    height: 105px;
+    width: 100%;
+    
+}
+
+.footer .container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer ul{
+    
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.footer li{
+    
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.footer ul li a:hover{
+    
+    text-decoration: underline !important;
+    
+}
+
+.red{
+    color: red;
+}
+
+.backtotop{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    z-index: 1;
+    display: none;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.visible{
+    display: block;
+}
+
+
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+@media (max-width: 767.98px) {
+    
+     .mainSection h1{
+        font-size: 50px;
+    }
+   
+    .secondsection4{
+        display: none !important;
+    }
+    
+}
